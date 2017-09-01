@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E0FD1FE1F580A6400348440 /* SmartBraceletFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E0FD1FC1F580A6400348440 /* SmartBraceletFactory.h */; };
+		0E0FD1FF1F580A6400348440 /* SmartBraceletFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0FD1FD1F580A6400348440 /* SmartBraceletFactory.m */; };
+		0E3521D71F57B2920091C4F2 /* DataFilterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E3521D61F57B2920091C4F2 /* DataFilterProtocol.h */; };
+		0E3521DA1F57B3BF0091C4F2 /* StepsDataFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E3521D81F57B3BF0091C4F2 /* StepsDataFilter.h */; };
+		0E3521DB1F57B3BF0091C4F2 /* StepsDataFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3521D91F57B3BF0091C4F2 /* StepsDataFilter.m */; };
+		0E3521DF1F57B8E30091C4F2 /* TYBlueToothManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E3521DD1F57B8E30091C4F2 /* TYBlueToothManager.h */; };
+		0E3521E01F57B8E30091C4F2 /* TYBlueToothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3521DE1F57B8E30091C4F2 /* TYBlueToothManager.m */; };
+		0E3521E51F57B8ED0091C4F2 /* NSMutableArray+HexData.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E3521E11F57B8ED0091C4F2 /* NSMutableArray+HexData.h */; };
+		0E3521E61F57B8ED0091C4F2 /* NSMutableArray+HexData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3521E21F57B8ED0091C4F2 /* NSMutableArray+HexData.m */; };
+		0E3521E71F57B8ED0091C4F2 /* NSData+HexData.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E3521E31F57B8ED0091C4F2 /* NSData+HexData.h */; };
+		0E3521E81F57B8ED0091C4F2 /* NSData+HexData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3521E41F57B8ED0091C4F2 /* NSData+HexData.m */; };
+		0E3521EC1F57BA070091C4F2 /* SmarServiceHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E3521EB1F57B9A60091C4F2 /* SmarServiceHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E62CE541F56953B009AEFC8 /* SmartPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E62CE521F56953B009AEFC8 /* SmartPeripheral.h */; };
+		0E62CE551F56953B009AEFC8 /* SmartPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E62CE531F56953B009AEFC8 /* SmartPeripheral.m */; };
+		0E62CE581F5696E6009AEFC8 /* SmartBracelet.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E62CE561F5696E6009AEFC8 /* SmartBracelet.h */; };
+		0E62CE591F5696E6009AEFC8 /* SmartBracelet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E62CE571F5696E6009AEFC8 /* SmartBracelet.m */; };
+		0E62CE5C1F569765009AEFC8 /* OtherSmartPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E62CE5A1F569765009AEFC8 /* OtherSmartPeripheral.h */; };
+		0E62CE5D1F569765009AEFC8 /* OtherSmartPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E62CE5B1F569765009AEFC8 /* OtherSmartPeripheral.m */; };
+		0E62CE601F5698AB009AEFC8 /* SmartPeripheralFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E62CE5E1F5698AB009AEFC8 /* SmartPeripheralFactory.h */; };
+		0E62CE611F5698AB009AEFC8 /* SmartPeripheralFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E62CE5F1F5698AB009AEFC8 /* SmartPeripheralFactory.m */; };
+		0E62CE641F5699F1009AEFC8 /* SmartBracelet_MI.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E62CE621F5699F1009AEFC8 /* SmartBracelet_MI.h */; };
+		0E62CE651F5699F1009AEFC8 /* SmartBracelet_MI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E62CE631F5699F1009AEFC8 /* SmartBracelet_MI.m */; };
+		0E62CE681F569BEE009AEFC8 /* SmartService.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E62CE661F569BEE009AEFC8 /* SmartService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E62CE691F569BEE009AEFC8 /* SmartService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E62CE671F569BEE009AEFC8 /* SmartService.m */; };
+		0E62CE6B1F56B3A1009AEFC8 /* SmartBraceletProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E62CE6A1F56B3A1009AEFC8 /* SmartBraceletProtocol.h */; };
+		0ECCD4011F54026D00E5B31B /* MenuSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ECCD3FF1F54026D00E5B31B /* MenuSDK.h */; };
+		0ECFB72C1F551DAB00A99E59 /* UIImage+BundleImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ECFB7261F551DAB00A99E59 /* UIImage+BundleImage.h */; };
+		0ECFB72D1F551DAB00A99E59 /* UIImage+BundleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECFB7271F551DAB00A99E59 /* UIImage+BundleImage.m */; };
+		0ECFB72E1F551DAB00A99E59 /* UIView+TPFrameExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ECFB7281F551DAB00A99E59 /* UIView+TPFrameExtension.h */; };
+		0ECFB72F1F551DAB00A99E59 /* UIView+TPFrameExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECFB7291F551DAB00A99E59 /* UIView+TPFrameExtension.m */; };
+		0ECFB7301F551DAB00A99E59 /* UIView+WalkerFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ECFB72A1F551DAB00A99E59 /* UIView+WalkerFrame.h */; };
+		0ECFB7311F551DAB00A99E59 /* UIView+WalkerFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECFB72B1F551DAB00A99E59 /* UIView+WalkerFrame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E0FD1FC1F580A6400348440 /* SmartBraceletFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartBraceletFactory.h; sourceTree = "<group>"; };
+		0E0FD1FD1F580A6400348440 /* SmartBraceletFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartBraceletFactory.m; sourceTree = "<group>"; };
+		0E3521D61F57B2920091C4F2 /* DataFilterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataFilterProtocol.h; sourceTree = "<group>"; };
+		0E3521D81F57B3BF0091C4F2 /* StepsDataFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepsDataFilter.h; sourceTree = "<group>"; };
+		0E3521D91F57B3BF0091C4F2 /* StepsDataFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepsDataFilter.m; sourceTree = "<group>"; };
+		0E3521DD1F57B8E30091C4F2 /* TYBlueToothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYBlueToothManager.h; sourceTree = "<group>"; };
+		0E3521DE1F57B8E30091C4F2 /* TYBlueToothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYBlueToothManager.m; sourceTree = "<group>"; };
+		0E3521E11F57B8ED0091C4F2 /* NSMutableArray+HexData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+HexData.h"; sourceTree = "<group>"; };
+		0E3521E21F57B8ED0091C4F2 /* NSMutableArray+HexData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+HexData.m"; sourceTree = "<group>"; };
+		0E3521E31F57B8ED0091C4F2 /* NSData+HexData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+HexData.h"; sourceTree = "<group>"; };
+		0E3521E41F57B8ED0091C4F2 /* NSData+HexData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+HexData.m"; sourceTree = "<group>"; };
+		0E3521EB1F57B9A60091C4F2 /* SmarServiceHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmarServiceHeader.h; sourceTree = "<group>"; };
+		0E62CE521F56953B009AEFC8 /* SmartPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartPeripheral.h; sourceTree = "<group>"; };
+		0E62CE531F56953B009AEFC8 /* SmartPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartPeripheral.m; sourceTree = "<group>"; };
+		0E62CE561F5696E6009AEFC8 /* SmartBracelet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartBracelet.h; sourceTree = "<group>"; };
+		0E62CE571F5696E6009AEFC8 /* SmartBracelet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartBracelet.m; sourceTree = "<group>"; };
+		0E62CE5A1F569765009AEFC8 /* OtherSmartPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherSmartPeripheral.h; sourceTree = "<group>"; };
+		0E62CE5B1F569765009AEFC8 /* OtherSmartPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherSmartPeripheral.m; sourceTree = "<group>"; };
+		0E62CE5E1F5698AB009AEFC8 /* SmartPeripheralFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartPeripheralFactory.h; sourceTree = "<group>"; };
+		0E62CE5F1F5698AB009AEFC8 /* SmartPeripheralFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartPeripheralFactory.m; sourceTree = "<group>"; };
+		0E62CE621F5699F1009AEFC8 /* SmartBracelet_MI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartBracelet_MI.h; sourceTree = "<group>"; };
+		0E62CE631F5699F1009AEFC8 /* SmartBracelet_MI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartBracelet_MI.m; sourceTree = "<group>"; };
+		0E62CE661F569BEE009AEFC8 /* SmartService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartService.h; sourceTree = "<group>"; };
+		0E62CE671F569BEE009AEFC8 /* SmartService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartService.m; sourceTree = "<group>"; };
+		0E62CE6A1F56B3A1009AEFC8 /* SmartBraceletProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartBraceletProtocol.h; sourceTree = "<group>"; };
+		0ECCD3FC1F54026D00E5B31B /* MeumSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MeumSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ECCD3FF1F54026D00E5B31B /* MenuSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuSDK.h; sourceTree = "<group>"; };
+		0ECCD4001F54026D00E5B31B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ECFB7261F551DAB00A99E59 /* UIImage+BundleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BundleImage.h"; sourceTree = "<group>"; };
+		0ECFB7271F551DAB00A99E59 /* UIImage+BundleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BundleImage.m"; sourceTree = "<group>"; };
+		0ECFB7281F551DAB00A99E59 /* UIView+TPFrameExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TPFrameExtension.h"; sourceTree = "<group>"; };
+		0ECFB7291F551DAB00A99E59 /* UIView+TPFrameExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TPFrameExtension.m"; sourceTree = "<group>"; };
+		0ECFB72A1F551DAB00A99E59 /* UIView+WalkerFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WalkerFrame.h"; sourceTree = "<group>"; };
+		0ECFB72B1F551DAB00A99E59 /* UIView+WalkerFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WalkerFrame.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0ECCD3F81F54026D00E5B31B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E3521CF1F57A5790091C4F2 /* SmartBracelet */ = {
+			isa = PBXGroup;
+			children = (
+				0E62CE6A1F56B3A1009AEFC8 /* SmartBraceletProtocol.h */,
+				0E62CE561F5696E6009AEFC8 /* SmartBracelet.h */,
+				0E62CE571F5696E6009AEFC8 /* SmartBracelet.m */,
+				0E62CE621F5699F1009AEFC8 /* SmartBracelet_MI.h */,
+				0E62CE631F5699F1009AEFC8 /* SmartBracelet_MI.m */,
+			);
+			name = SmartBracelet;
+			sourceTree = "<group>";
+		};
+		0E3521D01F57A5A60091C4F2 /* OtherSmartPrepheral */ = {
+			isa = PBXGroup;
+			children = (
+				0E62CE5A1F569765009AEFC8 /* OtherSmartPeripheral.h */,
+				0E62CE5B1F569765009AEFC8 /* OtherSmartPeripheral.m */,
+			);
+			name = OtherSmartPrepheral;
+			sourceTree = "<group>";
+		};
+		0E3521D11F57B1E10091C4F2 /* DataFilter */ = {
+			isa = PBXGroup;
+			children = (
+				0E3521D61F57B2920091C4F2 /* DataFilterProtocol.h */,
+				0E3521D81F57B3BF0091C4F2 /* StepsDataFilter.h */,
+				0E3521D91F57B3BF0091C4F2 /* StepsDataFilter.m */,
+			);
+			name = DataFilter;
+			sourceTree = "<group>";
+		};
+		0E3521DC1F57B8AE0091C4F2 /* BlueToothManager */ = {
+			isa = PBXGroup;
+			children = (
+				0E3521E11F57B8ED0091C4F2 /* NSMutableArray+HexData.h */,
+				0E3521E21F57B8ED0091C4F2 /* NSMutableArray+HexData.m */,
+				0E3521E31F57B8ED0091C4F2 /* NSData+HexData.h */,
+				0E3521E41F57B8ED0091C4F2 /* NSData+HexData.m */,
+				0E3521DD1F57B8E30091C4F2 /* TYBlueToothManager.h */,
+				0E3521DE1F57B8E30091C4F2 /* TYBlueToothManager.m */,
+			);
+			name = BlueToothManager;
+			sourceTree = "<group>";
+		};
+		0E3521E91F57B9250091C4F2 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				0E62CE5E1F5698AB009AEFC8 /* SmartPeripheralFactory.h */,
+				0E62CE5F1F5698AB009AEFC8 /* SmartPeripheralFactory.m */,
+				0E0FD1FC1F580A6400348440 /* SmartBraceletFactory.h */,
+				0E0FD1FD1F580A6400348440 /* SmartBraceletFactory.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		0E3521EA1F57B94B0091C4F2 /* BasePeripheral */ = {
+			isa = PBXGroup;
+			children = (
+				0E62CE521F56953B009AEFC8 /* SmartPeripheral.h */,
+				0E62CE531F56953B009AEFC8 /* SmartPeripheral.m */,
+			);
+			name = BasePeripheral;
+			sourceTree = "<group>";
+		};
+		0ECCD3F21F54026D00E5B31B = {
+			isa = PBXGroup;
+			children = (
+				0ECCD3FE1F54026D00E5B31B /* MeumSDK */,
+				0ECCD3FD1F54026D00E5B31B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0ECCD3FD1F54026D00E5B31B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0ECCD3FC1F54026D00E5B31B /* MeumSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0ECCD3FE1F54026D00E5B31B /* MeumSDK */ = {
+			isa = PBXGroup;
+			children = (
+				0E3521EA1F57B94B0091C4F2 /* BasePeripheral */,
+				0E3521CF1F57A5790091C4F2 /* SmartBracelet */,
+				0E3521D01F57A5A60091C4F2 /* OtherSmartPrepheral */,
+				0E3521E91F57B9250091C4F2 /* Factory */,
+				0E3521DC1F57B8AE0091C4F2 /* BlueToothManager */,
+				0E3521D11F57B1E10091C4F2 /* DataFilter */,
+				0ECFB7251F551D9700A99E59 /* Category */,
+				0ECCD3FF1F54026D00E5B31B /* MenuSDK.h */,
+				0E62CE661F569BEE009AEFC8 /* SmartService.h */,
+				0E62CE671F569BEE009AEFC8 /* SmartService.m */,
+				0E3521EB1F57B9A60091C4F2 /* SmarServiceHeader.h */,
+				0ECCD4001F54026D00E5B31B /* Info.plist */,
+			);
+			name = MeumSDK;
+			path = MenuSDK;
+			sourceTree = "<group>";
+		};
+		0ECFB7251F551D9700A99E59 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0ECFB7261F551DAB00A99E59 /* UIImage+BundleImage.h */,
+				0ECFB7271F551DAB00A99E59 /* UIImage+BundleImage.m */,
+				0ECFB7281F551DAB00A99E59 /* UIView+TPFrameExtension.h */,
+				0ECFB7291F551DAB00A99E59 /* UIView+TPFrameExtension.m */,
+				0ECFB72A1F551DAB00A99E59 /* UIView+WalkerFrame.h */,
+				0ECFB72B1F551DAB00A99E59 /* UIView+WalkerFrame.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0ECCD3F91F54026D00E5B31B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E62CE681F569BEE009AEFC8 /* SmartService.h in Headers */,
+				0E3521EC1F57BA070091C4F2 /* SmarServiceHeader.h in Headers */,
+				0ECCD4011F54026D00E5B31B /* MenuSDK.h in Headers */,
+				0E62CE601F5698AB009AEFC8 /* SmartPeripheralFactory.h in Headers */,
+				0E3521E51F57B8ED0091C4F2 /* NSMutableArray+HexData.h in Headers */,
+				0E3521D71F57B2920091C4F2 /* DataFilterProtocol.h in Headers */,
+				0ECFB72C1F551DAB00A99E59 /* UIImage+BundleImage.h in Headers */,
+				0ECFB7301F551DAB00A99E59 /* UIView+WalkerFrame.h in Headers */,
+				0E62CE5C1F569765009AEFC8 /* OtherSmartPeripheral.h in Headers */,
+				0ECFB72E1F551DAB00A99E59 /* UIView+TPFrameExtension.h in Headers */,
+				0E62CE641F5699F1009AEFC8 /* SmartBracelet_MI.h in Headers */,
+				0E0FD1FE1F580A6400348440 /* SmartBraceletFactory.h in Headers */,
+				0E62CE581F5696E6009AEFC8 /* SmartBracelet.h in Headers */,
+				0E3521E71F57B8ED0091C4F2 /* NSData+HexData.h in Headers */,
+				0E3521DF1F57B8E30091C4F2 /* TYBlueToothManager.h in Headers */,
+				0E62CE541F56953B009AEFC8 /* SmartPeripheral.h in Headers */,
+				0E3521DA1F57B3BF0091C4F2 /* StepsDataFilter.h in Headers */,
+				0E62CE6B1F56B3A1009AEFC8 /* SmartBraceletProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0ECCD3FB1F54026D00E5B31B /* MeumSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ECCD4041F54026D00E5B31B /* Build configuration list for PBXNativeTarget "MeumSDK" */;
+			buildPhases = (
+				0ECCD3F81F54026D00E5B31B /* Frameworks */,
+				0ECCD3F71F54026D00E5B31B /* Sources */,
+				0ECCD3F91F54026D00E5B31B /* Headers */,
+				0ECCD3FA1F54026D00E5B31B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeumSDK;
+			productName = MenuSDK;
+			productReference = 0ECCD3FC1F54026D00E5B31B /* MeumSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0ECCD3F31F54026D00E5B31B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = tangpeng;
+				TargetAttributes = {
+					0ECCD3FB1F54026D00E5B31B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0ECCD3F61F54026D00E5B31B /* Build configuration list for PBXProject "MeumSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0ECCD3F21F54026D00E5B31B;
+			productRefGroup = 0ECCD3FD1F54026D00E5B31B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0ECCD3FB1F54026D00E5B31B /* MeumSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0ECCD3FA1F54026D00E5B31B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0ECCD3F71F54026D00E5B31B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3521E01F57B8E30091C4F2 /* TYBlueToothManager.m in Sources */,
+				0E62CE5D1F569765009AEFC8 /* OtherSmartPeripheral.m in Sources */,
+				0E62CE591F5696E6009AEFC8 /* SmartBracelet.m in Sources */,
+				0ECFB72D1F551DAB00A99E59 /* UIImage+BundleImage.m in Sources */,
+				0E62CE651F5699F1009AEFC8 /* SmartBracelet_MI.m in Sources */,
+				0E62CE611F5698AB009AEFC8 /* SmartPeripheralFactory.m in Sources */,
+				0ECFB7311F551DAB00A99E59 /* UIView+WalkerFrame.m in Sources */,
+				0E3521E61F57B8ED0091C4F2 /* NSMutableArray+HexData.m in Sources */,
+				0E62CE691F569BEE009AEFC8 /* SmartService.m in Sources */,
+				0E3521E81F57B8ED0091C4F2 /* NSData+HexData.m in Sources */,
+				0ECFB72F1F551DAB00A99E59 /* UIView+TPFrameExtension.m in Sources */,
+				0E3521DB1F57B3BF0091C4F2 /* StepsDataFilter.m in Sources */,
+				0E0FD1FF1F580A6400348440 /* SmartBraceletFactory.m in Sources */,
+				0E62CE551F56953B009AEFC8 /* SmartPeripheral.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0ECCD4021F54026D00E5B31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0ECCD4031F54026D00E5B31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0ECCD4051F54026D00E5B31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = MenuSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanyun.MenuSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0ECCD4061F54026D00E5B31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = MenuSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanyun.MenuSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ECCD3F61F54026D00E5B31B /* Build configuration list for PBXProject "MeumSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ECCD4021F54026D00E5B31B /* Debug */,
+				0ECCD4031F54026D00E5B31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ECCD4041F54026D00E5B31B /* Build configuration list for PBXNativeTarget "MeumSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ECCD4051F54026D00E5B31B /* Debug */,
+				0ECCD4061F54026D00E5B31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0ECCD3F31F54026D00E5B31B /* Project object */;
+}
